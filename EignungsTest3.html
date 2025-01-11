@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="EignugsTest3.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="img/menu.png" alt="">
+        Währungsrechner
+    </div>
+    
+    <div class="input-container">
+        <img class="flag" src="img/eu.png" alt="">
+        <input value="100" type="text" id="euroField">
+        <span class="currency">EUR</span> 
+    </div>
+
+    <div class="container-center">
+        <img src="img/arrows.png" alt="">
+    </div>
+
+    <div class="input-container">
+        <img class="flag" src="img/usa.png" alt="">
+        <input type="text" id="usd">
+        <span class="currency">USD</span> 
+    </div>
+
+    <div class="container-center">
+        <button onclick="calc()">Berechnen EUR in USD</button>
+    </div>
+
+    <div class="container-center">
+        <button onclick="calcUSD()">Berechnen USD in EUR</button>
+    </div>
+
+    <script src="EignugsTest3.js"></script>
+</body>
+</html>
